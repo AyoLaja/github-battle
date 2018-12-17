@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    padding: 30px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+}
+
+.languages li {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
