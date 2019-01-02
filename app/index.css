@@ -1,7 +1,9 @@
 body {
-    background-color: green;
+    background-color: #1a1a1a;
     height: 100%;
     width: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fff;
 }
 
 ul {
@@ -25,5 +27,33 @@ li {
     margin: 10px;
     font-weight: bold;
     cursor: pointer;
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
 
+.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-item {
+    margin: 20px;
+    text-align: center;
+}
+
+a {
+    color: #b00931;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.popular-rank {
+    font-size: 20px;
+    margin: 10px;
 }
