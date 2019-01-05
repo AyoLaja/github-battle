@@ -93,13 +93,13 @@ a {
 .nav li a {
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .active {
-    border-bottom: 2px solid #b00931;
+    border-bottom: 4px solid #b00931;
 }
 
 .home-container {
