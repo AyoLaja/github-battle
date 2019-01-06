@@ -6,6 +6,26 @@ body {
     color: #fff;
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.column input {
+    
+}
+
+.column label {
+
+}
+
 ul {
     padding: 0px;
 }
@@ -138,4 +158,8 @@ a {
 
 .button:active {
     transform: translateY(1px)
+}
+
+input {
+    
 }
