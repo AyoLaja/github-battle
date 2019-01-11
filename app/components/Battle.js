@@ -45,7 +45,7 @@ class PlayerInput extends React.Component {
                     value={this.state.username} 
                     onChange={this.handleChange}
                 />
-                <button className="button"
+                <button 
                     type="submit"
                     disabled={!this.state.username}>
                     Submit
@@ -90,9 +90,12 @@ class Battle extends React.Component {
         var playerTwoName = this.state.playerTwoName
 
         return (
-            <div>
+            <div className="container">
                 <div className="row">
                     {!playerOneName && <PlayerInput id="playerOne" label="Player 1" onSubmit={this.handleSubmit}/>}
+                    <div className="versus">
+                        <span>vs</span>
+                    </div>
                     {!playerTwoName && <PlayerInput id="playerTwo" label="Player 2" onSubmit={this.handleSubmit}/>}
                 </div>
             </div>

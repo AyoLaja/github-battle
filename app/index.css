@@ -14,16 +14,38 @@ body {
 .column {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    align-items: center;
+    width: 35%;
+    /* align-items: center; */
 }
 
 .column input {
-    
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 15px;
+    border: 1px solid #b00931;
+    color: #b00931;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    caret-color: #b00931;
+    border-radius: 20px;
+    background-color: inherit;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: inherit;
 }
 
 .column label {
+    margin-bottom: 10px;
+}
 
+.versus {
+    width: 30%;
+    text-align: center;
+}
+
+.versus span {
+    font-size: 60px;
+    color: #fff;
 }
 
 ul {
@@ -136,7 +158,7 @@ a {
     letter-spacing: 1px;
 }
 
-.button {
+.button, button {
     background: #333333;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -146,11 +168,15 @@ a {
     /* font-weight: bold; */
     letter-spacing: 1px;
     font-size: 13px;
+    border: none;
     border-radius: 20px;
-    transition: all 2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.button:hover {
+.button:hover, button:hover {
     background: #ED213A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -158,8 +184,4 @@ a {
 
 .button:active {
     transform: translateY(1px)
-}
-
-input {
-    
 }
