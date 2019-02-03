@@ -38,6 +38,14 @@ body {
     margin-bottom: 10px;
 }
 
+#player-preview {
+    text-align: center;
+}
+
+#player-preview .column {
+    width: 100%;
+}
+
 .versus {
     width: 30%;
     text-align: center;
